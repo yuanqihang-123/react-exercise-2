@@ -1,0 +1,37 @@
+@import '../styles/variables.scss';
+
+.app {
+  width: 600px;
+  margin: 80px auto $base-margin auto;
+  background-color: $white;
+}
+
+.header {
+  background-color: royalblue;
+}
+
+.header_div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header_cart {
+  margin-left: 85%;
+  transform: translateY(-30px);
+}
+
+.header_cart_num {
+  padding-left: 10px;
+  color:red;
+  transform: translateY(-30px);
+}
+
+.header_span {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+

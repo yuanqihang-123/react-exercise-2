@@ -1,0 +1,16 @@
+@import '../styles/variables.scss';
+
+.app {
+  width: 600px;
+  margin: 80px auto $base-margin auto;
+  background-color: $white;
+}
+
+.photo_title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.phone_display{
+  //display:flex;
+}

@@ -1,0 +1,21 @@
+@import '../styles/variables.scss';
+
+.app {
+  width: 600px;
+  margin: 80px auto $base-margin auto;
+  background-color: $white;
+}
+
+.phone_name {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.add_to_cart {
+  margin-left: 60%;
+  background-color: cornflowerblue;
+}
+
+.product_bottom {
+  display: flex
+}
