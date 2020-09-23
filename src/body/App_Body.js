@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App_Body.scss';
 import Phone from '../phone/App_Phone';
+import PropTypes from 'prop-types';
 
 class App_Body extends Component {
   state = {
@@ -27,12 +28,17 @@ class App_Body extends Component {
               key={index}
             ></Phone>
           ))}
-          }
+          &rbrace;
         </div>
         <div className="photo_title">HUWEI</div>
       </div>
     );
   }
 }
+
+App_Body.propTypes = {
+  product: PropTypes.object.isRequired,
+  onClick: PropTypes.func.isRequired,
+};
 
 export default App_Body;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App_Header.scss';
-
+import PropTypes from 'prop-types';
 class App_Header extends Component {
   // constructor() {
   //     super();
@@ -21,5 +21,9 @@ class App_Header extends Component {
     );
   }
 }
+
+App_Header.propTypes = {
+  num: PropTypes.number.isRequired,
+};
 
 export default App_Header;

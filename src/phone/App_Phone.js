@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App_Phone.scss';
 import noPhoto from '../assets/product_image_placeholder.png';
+import PropTypes from 'prop-types';
 
 class App_Phone extends Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   render() {
     return (
@@ -22,5 +23,10 @@ class App_Phone extends Component {
     );
   }
 }
+
+App_Phone.propTypes = {
+  product: PropTypes.object.isRequired,
+  onClick: PropTypes.func.isRequired,
+};
 
 export default App_Phone;
